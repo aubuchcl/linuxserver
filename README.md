@@ -5,6 +5,11 @@
 	1.log into your instance from the command line
 		1. ssh ~/.ssh/yourpemfile.pem ubuntu@yourdomain -p your port
 
+
+#  Update all packages
+	1. `$ sudo apt-get update`
+	1. `$ sudo apt-get upgrade`
+
 #  make a grader user
 	1.create a new user `$ sudo adduser newuser`
 	1.give user sudo powers `$ sudo usermod -a -G sudo newuser`
